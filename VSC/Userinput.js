@@ -1,4 +1,4 @@
-let input = prompt("Bid deinen Namen ein!");
+let input = prompt("Gib deinen Namen ein!");
 
 console.log(input)
 

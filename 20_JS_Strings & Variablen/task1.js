@@ -3,4 +3,10 @@ let b = 3.9
 
 let result = a / b
 
-console.log("Das Ergebnis der Division ist:" + result) 
+console.log("Das Ergebnis der Division ist: " + result) 
+
+
+let firstName = "Mehmet"
+let lastName = "Ucar"
+let fullName = firstName + " " + lastName
+console.log("Ich heiße " + fullName)

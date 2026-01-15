@@ -1,19 +1,13 @@
-// 1. Den Benutzer nach seinem Wunschgetränk fragen
-console.log("Verfügbare Getränke: Cola, Wasser, Bier, Tee");
-const auswahl = prompt("Welches Getränk möchtest du bestellen?");
+let auswahl = prompt("Welches Getränk möchtest du? (Cola, Wasser, Bier, Tee)");
 
-// 2. Die Auswahl prüfen und reagieren
-// .toLowerCase() sorgt dafür, dass auch "cola" oder "COLA" erkannt wird
-const getraenk = auswahl ? auswahl.trim().toLowerCase() : "";
-
-if (getraenk === "cola") {
+if (auswahl == "Cola") {
     console.log("Danke für deine Bestellung von Cola.");
-} else if (getraenk === "wasser") {
+} else if (auswahl == "Wasser") {
     console.log("Danke für deine Bestellung von Wasser.");
-} else if (getraenk === "bier") {
+} else if (auswahl == "Bier") {
     console.log("Danke für deine Bestellung von Bier.");
-} else if (getraenk === "tee") {
+} else if (auswahl == "Tee") {
     console.log("Danke für deine Bestellung von Tee.");
 } else {
-    console.log("Tut mir leid, dieses Getränk haben wir nicht im Sortiment.");
+    console.log("Tut mir leid, das haben wir nicht.");
 }

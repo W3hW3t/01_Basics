@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS HTML Test Rekreation</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-container {
+            border: 2px solid white;
+            width: 800px;
+            min-height: 600px;
+            position: relative;
+            padding: 20px;
+        }
+
+        .fix-box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            border: 2px solid #d4a5ff;
+        }
+
+        .content-box {
+            width: 400px;
+            height: 300px;
+            border: 2px solid #add8e6;
+            margin-left: 20px;
+            margin-top: 20px;
+            padding: 20px;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .content-box h1 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+        }
+
+        .content-box ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .inner-orange-box {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            border: 2px solid #ffa500;
+        }
+
+        .yellow-bar {
+            margin-top: 50px;
+            border-top: 3px solid #ffff00;
+            border-bottom: 3px solid #ffff00;
+            background-color: rgba(255, 255, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .bar-square {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #add8e6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="fix-box"></div>
+        <div class="content-box">
+            <h1>Willkommen!</h1>
+            <ul>
+                <li>Eins</li>
+                <li>Zwei</li>
+                <li>Drei</li>
+            </ul>
+            <div class="inner-orange-box"></div>
+        </div>
+        <div class="yellow-bar">
+            <div class="bar-square"></div>
+            <div class="bar-square"></div>
+            <div class="bar-square"></div>
+            <div class="bar-square"></div>
+        </div>
+    </div>
+
+</body>
+</html>
